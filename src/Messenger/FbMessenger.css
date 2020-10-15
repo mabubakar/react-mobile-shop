@@ -1,0 +1,77 @@
+:root {
+  --clr-grey-1: hsl(209, 61%, 16%);
+  --clr-grey-10: hsl(210, 36%, 96%);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI' 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: var(--clr-grey-10);
+  color: var(--clr-grey-1);
+  line-height: 1.5;
+  font-size: 0.875rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+h1 {
+  font-size: 3rem;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.25rem;
+  margin: 1rem 0;
+}
+h4 {
+  font-size: 0.83rem;
+}
+p {
+  margin-bottom: 1.25rem;
+}
+.message {
+  margin: 0.5rem;
+  width: fit-content;
+}
+.message_user {
+  margin-left: auto;
+  text-align: left !important;
+  width: fit-content;
+  color: white;
+}
+.message_userCard {
+  background-color: #0b81ff !important;
+}
+.message_guestCard {
+  background-color: #e9e9eb !important;
+}
+.app_form {
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  background-color: #e9e9eb;
+  z-index: 1;
+  width: 100%;
+  margin: 0px;
+  right: 0;
+  left: 0;
+}
