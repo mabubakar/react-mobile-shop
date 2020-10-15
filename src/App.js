@@ -1,9 +1,10 @@
 import React from 'react'
+import Todo from './ToDoList/Todo'
 
 function App() {
   return (
     <div className='container'>
-      <h1>Abubakar</h1>
+      <Todo />
     </div>
   )
 }
