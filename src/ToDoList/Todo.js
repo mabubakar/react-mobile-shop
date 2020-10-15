@@ -32,7 +32,7 @@ const Todo = () => {
   }
   return (
     <section className='text-center my-5'>
-      <h1>ToDo</h1>
+      <h1>ToDo List</h1>
       <form className='text-center my-3'>
         <FormControl>
           <InputLabel>Write a ToDo</InputLabel>
