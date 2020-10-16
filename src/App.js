@@ -3,9 +3,9 @@ import Instagram from './Instagram/Instagram'
 
 function App() {
   return (
-    <div className='container'>
+    <>
       <Instagram />
-    </div>
+    </>
   )
 }
 
