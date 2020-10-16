@@ -1,10 +1,10 @@
 import React from 'react'
-import FacebookMessenger from './Messenger/FacebookMessenger'
+import Instagram from './Instagram/Instagram'
 
 function App() {
   return (
     <div className='container'>
-      <FacebookMessenger />
+      <Instagram />
     </div>
   )
 }
