@@ -10,6 +10,14 @@
   border-bottom: 1px solid lightgray;
   background-color: #fff;
   object-fit: contain;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.app__headerImage {
+  object-fit: contain;
 }
 
 .post {
@@ -35,4 +43,52 @@
 .post__text {
   font-weight: normal;
   padding: 20px;
+}
+.instagram__signup {
+  display: flex;
+  flex-direction: column;
+}
+.imageupload {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.imageupload__progress {
+  width: 100%;
+}
+.instagram__posts {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.instagram__postRight {
+  margin-left: 40px;
+}
+.post__commentBox {
+  display: flex;
+  margin-top: 10px;
+}
+.post__input {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  border-top: 1px solid lightgray;
+}
+.post__btn {
+  flex: 0;
+  color: #6082a3;
+  border: none;
+  background-color: transparent;
+  border-top: 1px solid lightgray;
+}
+.post__comment {
+  padding: 2px 20px;
+}
+.comment__text {
+  padding-left: 10px;
 }
