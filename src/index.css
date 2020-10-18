@@ -66,9 +66,6 @@
   justify-content: center;
 }
 
-.instagram__postRight {
-  margin-left: 40px;
-}
 .post__commentBox {
   display: flex;
   margin-top: 10px;

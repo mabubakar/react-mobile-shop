@@ -207,32 +207,58 @@ const Instagram = () => {
         )}
       </div>
 
-      <div className='instagram__posts'>
-        <div className='intagram__postLeft'>
-          {posts.map(({ id, post }) => (
-            <Post
-              key={id}
-              postid={id}
-              user={user}
-              username={post.username}
-              caption={post.caption}
-              imageUrl={post.imageUrl}
+      <div className='container'>
+        <div className='row'>
+          <div className='col-md-7'>
+            {posts.map(({ id, post }) => (
+              <Post
+                key={id}
+                postid={id}
+                user={user}
+                username={post.username}
+                caption={post.caption}
+                imageUrl={post.imageUrl}
+              />
+            ))}
+          </div>
+          <div className='col-md-5'>
+            <InstagramEmbed
+              url='https://www.instagram.com/p/CGc1etvnx8K/?utm_source=ig_web_copy_link'
+              maxWidth={520}
+              hideCaption={false}
+              containerTagName='div'
+              protocol=''
+              injectScript
+              onLoading={() => {}}
+              onSuccess={() => {}}
+              onAfterRender={() => {}}
+              onFailure={() => {}}
             />
-          ))}
-        </div>
-        <div className='instagram__postRight'>
-          <InstagramEmbed
-            url='https://www.instagram.com/p/CGc1etvnx8K/?utm_source=ig_web_copy_link'
-            maxWidth={320}
-            hideCaption={false}
-            containerTagName='div'
-            protocol=''
-            injectScript
-            onLoading={() => {}}
-            onSuccess={() => {}}
-            onAfterRender={() => {}}
-            onFailure={() => {}}
-          />
+            <InstagramEmbed
+              url='https://www.instagram.com/p/CGekmDshcmG/?utm_source=ig_web_copy_link'
+              maxWidth={520}
+              hideCaption={false}
+              containerTagName='div'
+              protocol=''
+              injectScript
+              onLoading={() => {}}
+              onSuccess={() => {}}
+              onAfterRender={() => {}}
+              onFailure={() => {}}
+            />
+            <InstagramEmbed
+              url='https://www.instagram.com/p/CGCL_zkJ75X/?utm_source=ig_web_copy_link'
+              maxWidth={520}
+              hideCaption={false}
+              containerTagName='div'
+              protocol=''
+              injectScript
+              onLoading={() => {}}
+              onSuccess={() => {}}
+              onAfterRender={() => {}}
+              onFailure={() => {}}
+            />
+          </div>
         </div>
       </div>
 
