@@ -50,7 +50,7 @@ const Post = ({ postid, user, username, caption, imageUrl }) => {
       {
         <div className='post__comment'>
           {comments.map(comment => (
-            <p>
+            <p key={Math.random()}>
               <strong>{comment.username}</strong>
               <span className='comment__text'>{comment.text}</span>
             </p>
