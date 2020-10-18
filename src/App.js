@@ -1,10 +1,9 @@
 import React from 'react'
-import Instagram from './Instagram/Instagram'
 
 function App() {
   return (
     <>
-      <Instagram />
+      <h1>hy</h1>
     </>
   )
 }
