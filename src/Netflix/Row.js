@@ -19,7 +19,7 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
   return (
     <>
       <div className='row__'>
-        <h2 className='text-uppercase'>{title}</h2>
+        <h2 className='text-uppercase row__title'>{title}</h2>
         <div className='row__posters'>
           {movies.map(movie => (
             <img
