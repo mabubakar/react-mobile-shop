@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #f1f5f8;
+}
+p {
+  margin-bottom: 0;
+}
+.mobile__list {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 5rem auto;
+  display: grid;
+  gap: 2rem;
+  text-align: center;
+}
+.mobile {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .mobile__list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
