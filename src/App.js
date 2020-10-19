@@ -1,9 +1,10 @@
 import React from 'react'
+import Netflix from './Netflix/Netflix'
 
 function App() {
   return (
     <>
-      <h1>hy</h1>
+      <Netflix />
     </>
   )
 }
